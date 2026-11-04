@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>전통 생명 기술: 발효 사전</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🌿 우리 고유의 전통 발효 기술</h1>
+        <p>구글 스프레드시트와 연동된 스마트 발효 백과사전입니다.</p>
+    </header>
+    
+    <main>
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="발효 식품 이름을 검색해보세요...">
+        </div>
+        <div id="card-container" class="grid">
+            <!-- 자바스크립트로 카드가 동적으로 생성됩니다 -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
